@@ -12,7 +12,7 @@ const bookmarkRouter = require('./router/bookmarkRouter');
 app.use(express.static('dist'));
 
 const corsOptions = {
-    origin:"*:*",
+    origin:"https://booknesttt.netlify.app",
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE" ,
     credentials:true
 }
